@@ -4,7 +4,7 @@ export default function Saved() {
       className="container mx-auto p-10 text-4xl w-full flex justify-center items-center"
       style={{ height: "500px" }}
     >
-      This Page Not available yet. it's under construction.
+      This Page Not available yet. it is under construction.
     </h1>
   );
 }

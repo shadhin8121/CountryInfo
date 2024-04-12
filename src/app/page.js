@@ -19,7 +19,7 @@ export default function Home() {
         getAllCountryInformation();
       }
     }
-  }, []);
+  }, [getAllCountryInformation]);
 
   // console.log(allCountryData);
 
