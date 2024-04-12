@@ -11,15 +11,9 @@ export default function Home() {
 
   // useEffect hook to call getAllCountryInformation() after page reload
   useEffect(() => {
-    // Check if the component is mounted on the client-side
-    if (typeof window !== "undefined") {
-      // Check if the page has been reloaded
-      if (performance.navigation.type === 1) {
-        // Page has been reloaded, so call getAllCountryInformation()
-        getAllCountryInformation();
-      }
-    }
-  }, [getAllCountryInformation]);
+    // Page has been reloaded, so call getAllCountryInformation()
+    getAllCountryInformation();
+  }, []);
 
   // console.log(allCountryData);
 
